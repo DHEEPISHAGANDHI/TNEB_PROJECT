@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d9eff9e6;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #b5e7ffe6;
+    color: rgb(22, 38, 63);
+    text-align: center;
+    padding: 40px 10px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+  }
+  
+  /* Main Section */
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-icon img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .card h2 {
+    font-size: 30px;
+    margin: 0 0 10px;
+    margin-top: 20px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .fa-user-tie {
+    font-size: 120px;
+    color: #2c6097;
+  }
+
+  .fa-user {
+    font-size: 120px;
+    color: rgb(5, 164, 5);
+  }
+
+  .fa-users {
+    font-size: 120px;
+    color: rgb(160, 13, 239);
+  }
+  

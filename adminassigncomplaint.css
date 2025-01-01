@@ -1,0 +1,147 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    
+    max-width: 600px;
+    margin: 50px auto;
+    margin-top: 80px;
+    background: #ffffff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  .button-assign{
+    
+    width: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 90%;
+    margin-left: 200px;
+    background-color: #1f57ff;
+    color: rgb(246, 235, 235);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+   /* form  { */ 
+     /* width: 100%; */ */
+     /* padding: 10px; */ */
+    /* margin-top: 10px; */ */
+     /* background-color: #1f57ff; */ */
+    /* color: white; */ */
+    /* font-size: 16px; */ */
+    /* font-weight: bold; */ */
+    /* border: none; */ */
+    /* border-radius: 5px; */ */
+    /* cursor: pointer; */ */
+/* } */ */
+
+/* form button:hover { */
+    /* background-color: #254eda; */
+/* } */
+  .back-button {
+    width: 80px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-right: 90%;
+    margin-left: 5px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #254eda;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3366ff;
+    padding: 20px 20px;
+    color: white;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .header-left h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+header .header-left span {
+    font-size: 14px;
+}
+
+header .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .header-right i {
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+header .header-right i:hover {
+    transform: translateY(-4px);
+    color: #222831;
+}
+
+header .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+  

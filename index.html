@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>TNEB Portal</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Tamil Nadu Electricity Board Portal</h1>
+    <p>Powering progress, empowering people</p>
+  </header>
+
+  <main class="main">
+    <div class="card-container">
+      <!-- Admin Card -->
+      <div class="card" onclick="location.href='adminlogin.html'">
+        <div class="card-icon">
+          <i class="fa-solid fa-user-tie"></i>
+        </div>
+        <h2>Admin</h2>
+        <p>System administration and management portal</p>
+      </div>
+
+      <!-- Employee Card -->
+      <div class="card" onclick="location.href='employeelogin.html'">
+        <div class="card-icon">
+            <i class="fa-solid fa-users"></i>
+        </div>
+        <h2>Employee</h2>
+        <p>Employee portal for service management</p>
+      </div>
+
+      <!-- User Card -->
+      <div class="card" onclick="location.href='userlogin.html'">
+        <div class="card-icon">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <h2>User</h2>
+        <p>Customer service and complaint management</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

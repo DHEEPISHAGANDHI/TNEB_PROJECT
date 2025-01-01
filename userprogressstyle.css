@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  width: 100px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+th {
+  font-weight: bold;
+  color: #333;
+}
+td {
+  font-size: 14px;
+  color: #555;
+}
+.status-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #856404;
+  background-color: #fff3cd;
+}
+.action-icons {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.action-icon i {
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.action-icon:hover {
+  transform: translateY(-4px);
+  color: #1368e7;
+}
+
+.back-button {
+  width: 80px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 90%;
+  background-color: #1f57ff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #254eda;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3366ff;
+  padding: 20px 20px;
+  color: rgb(255, 255, 255);
+}
+
+header .header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .header-left h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+header .header-left span {
+  font-size: 14px;
+}
+
+header .header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header .header-right i {
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+header .header-right i:hover {
+  transform: translateY(-4px);
+  color: #222831;
+}
+
+header .badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 2px 5px;
+}
+
+.fa-paper-plane {
+  font-size: 31px;
+  color: #010101;
+}
+
+.fa-circle-check {
+  font-size: 31px;
+  color: rgb(11, 11, 11);
+}
+.fa-square-poll-vertical {
+  font-size: 31px;
+  color: rgb(11, 11, 11);
+}
+
+

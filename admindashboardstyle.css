@@ -1,0 +1,157 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3366ff;
+    padding: 20px 20px;
+    color: white;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .header-left h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+header .header-left span {
+    font-size: 14px;
+}
+
+header .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .header-right i {
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+header .header-right i:hover {
+    transform: translateY(-4px);
+    color: #222831;
+}
+
+header .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main h2 {
+    font-size: 24px;
+    color: #222831;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 220px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card i {
+    font-size: 40px;
+    color: #3366ff;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #222831;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666666;
+}
+.back-button {
+    width: 80px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 90%;
+    background-color: #1f57ff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #254eda;
+}
+  .popup{
+     background-color: rgba(0, 0, 0, 0.6);
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     display: none;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.popup-content{
+      height: 250px;
+      width: 500px;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      position:relative;
+}
+.fa-circle-xmark{
+    position : absolute;
+    top: -15px;
+    right : -15px;
+    background: #ffffff;
+    height: 20px;
+    width:20px;
+    border-radius: 50px;
+    box-shadow: 6px 29px -4px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
